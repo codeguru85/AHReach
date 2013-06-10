@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8019EC4B176552ED00AA5F80 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8019EC4A176552ED00AA5F80 /* Default-568h@2x.png */; };
+		8019EC4E176553BF00AA5F80 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8019EC4C176553BF00AA5F80 /* Default.png */; };
+		8019EC4F176553BF00AA5F80 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8019EC4D176553BF00AA5F80 /* Default@2x.png */; };
 		8032AF79154DA9A900FAAFB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8032AF78154DA9A900FAAFB0 /* UIKit.framework */; };
 		8032AF7B154DA9A900FAAFB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8032AF7A154DA9A900FAAFB0 /* Foundation.framework */; };
 		8032AF7D154DA9A900FAAFB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8032AF7C154DA9A900FAAFB0 /* CoreGraphics.framework */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8019EC4A176552ED00AA5F80 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		8019EC4C176553BF00AA5F80 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		8019EC4D176553BF00AA5F80 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		8032AF74154DA9A900FAAFB0 /* AHReach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHReach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8032AF78154DA9A900FAAFB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8032AF7A154DA9A900FAAFB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,8 +109,11 @@
 		8032AF7F154DA9A900FAAFB0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8019EC4C176553BF00AA5F80 /* Default.png */,
+				8019EC4D176553BF00AA5F80 /* Default@2x.png */,
 				8032AF9A154DCB4200FAAFB0 /* Icon.png */,
 				8032AF9B154DCB4200FAAFB0 /* Icon@2x.png */,
+				8019EC4A176552ED00AA5F80 /* Default-568h@2x.png */,
 				8032AF80154DA9A900FAAFB0 /* AHReach-Info.plist */,
 				8032AF81154DA9A900FAAFB0 /* InfoPlist.strings */,
 				8032AF84154DA9A900FAAFB0 /* main.m */,
@@ -140,7 +149,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AH;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 8032AF6E154DA9A800FAAFB0 /* Build configuration list for PBXProject "AHReach" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -168,6 +177,9 @@
 				8032AF8F154DA9A900FAAFB0 /* AHViewController.xib in Resources */,
 				8032AF9C154DCB4200FAAFB0 /* Icon.png in Resources */,
 				8032AF9D154DCB4200FAAFB0 /* Icon@2x.png in Resources */,
+				8019EC4B176552ED00AA5F80 /* Default-568h@2x.png in Resources */,
+				8019EC4E176553BF00AA5F80 /* Default.png in Resources */,
+				8019EC4F176553BF00AA5F80 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +225,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -238,6 +254,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -293,6 +313,7 @@
 				8032AF94154DA9A900FAAFB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
